@@ -17,6 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo "${{ inputs.username }}" \
-        sha1sum ${{ secrets.token }}      
+          echo "${{ inputs.username }}" \
+          sha1sum ${{ secrets.token }}      
 
